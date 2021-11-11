@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="WpfApp1.Model.PatientCollection">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <AssociationLine Name="meta" Type="WpfApp1.Model.Meta" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.438" Y="1.988" />
+        <Point X="12.438" Y="3.302" />
+        <Point X="11.5" Y="3.302" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="link" Type="WpfApp1.Model.Link" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.062" Y="1.988" />
+        <Point X="14.062" Y="3.674" />
+        <Point X="16.75" Y="3.674" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="entry" Type="WpfApp1.Model.Entry" FixedToPoint="true">
+      <Path>
+        <Point X="13.312" Y="1.988" />
+        <Point X="13.312" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAgAABAAAAAAAAAAAAEkA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="meta" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="link" />
+      <Property Name="entry" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Meta">
+    <Position X="9" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Link">
+    <Position X="16.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Entry">
+    <Position X="12.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAQACAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="resource" />
+      <Property Name="search" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Resource">
+    <Position X="12.5" Y="8" Width="2.5" />
+    <AssociationLine Name="identifier" Type="WpfApp1.Model.Identifier" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.812" Y="10.065" />
+        <Point X="12.812" Y="10.69" />
+        <Point X="6.688" Y="10.69" />
+        <Point X="6.688" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_birthDate" Type="WpfApp1.Model._Birthdate" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="8.403" />
+        <Point X="26.5" Y="8.403" />
+        <Point X="26.5" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="address" Type="WpfApp1.Model.Address" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.875" Y="10.065" />
+        <Point X="13.875" Y="10.44" />
+        <Point X="17.062" Y="10.44" />
+        <Point X="17.062" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="contact" Type="WpfApp1.Model.Contact" FixedFromPoint="true">
+      <Path>
+        <Point X="13.625" Y="10.065" />
+        <Point X="13.625" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="extension" Type="WpfApp1.Model.Extension1" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.188" Y="10.065" />
+        <Point X="13.188" Y="11.122" />
+        <Point X="10.125" Y="11.122" />
+        <Point X="10.125" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="telecom" Type="WpfApp1.Model.Telecom" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="9.5" />
+        <Point X="3.938" Y="9.5" />
+        <Point X="3.938" Y="13.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEIAABABAAAgAgAgAIEAABAAAEAIAAAAgA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="meta" />
+      <Property Name="_birthDate" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="name" />
+      <Property Name="identifier" />
+      <Property Name="address" />
+      <Property Name="contact" />
+      <Property Name="extension" />
+      <Property Name="telecom" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Meta1">
+    <Position X="22" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model._Birthdate">
+    <Position X="25.25" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="extension" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Extension">
+    <Position X="25.25" Y="15" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Name">
+    <Position X="19" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAgAABAACAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Extension1">
+    <Position X="8.75" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="valueAddress" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Valueaddress">
+    <Position X="9" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Identifier">
+    <Position X="5.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Telecom">
+    <Position X="3" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAACAAAAAAAAAAAAAACAABAAAAgAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="period" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Period">
+    <Position X="3" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Address">
+    <Position X="16" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAACCAAAAAAAAAGAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Contact">
+    <Position X="12.25" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAgAAAAAAEAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="name" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="relationship" />
+      <Property Name="telecom" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Name1">
+    <Position X="11.5" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Relationship">
+    <Position X="16.5" Y="16" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="coding" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="WpfApp1.Model.Coding">
+    <Position X="16.75" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Telecom1">
+    <Position X="14" Y="16" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAACAABAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WpfApp1.Model.Search">
+    <Position X="16.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HL7FHIRModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
